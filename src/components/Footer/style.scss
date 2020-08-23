@@ -1,0 +1,13 @@
+.footer {
+  font-family: "Raleway";
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+
+  .link:visited,
+  :active,
+  :link {
+    text-decoration: none;
+    color: #000;
+  }
+}
