@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;500&display=swap");
 body {
   margin: 0;
   font-family: "Old Standard TT", serif, "Raleway", sans-serif;
@@ -10,4 +16,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a,
+:link,
+:visited,
+:active {
+  color: #000;
+  text-decoration: none;
 }
