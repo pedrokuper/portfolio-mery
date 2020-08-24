@@ -8,9 +8,12 @@ function Retratos() {
     <div>
       {portraits.map((portrait, key) => {
         return (
-          <div>
-            <img src={portrait.img} key={key} alt="portrait" />
-          </div>
+          <img
+            className="grid-item"
+            src={portrait.img}
+            key={key}
+            alt="portrait"
+          />
         );
       })}
     </div>
