@@ -10,7 +10,7 @@ function Sections(props) {
       {sections.map((section) => {
         return (
           <div className="section">
-            <Link to={`/galeria/${section.title.toLowerCase()}`}>
+            <Link to={`/${section.title.toLowerCase()}`}>
               <img className="img" src={section.img} />
             </Link>
             <p className="title">{section.title}</p>

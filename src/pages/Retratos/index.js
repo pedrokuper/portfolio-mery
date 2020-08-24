@@ -12,7 +12,7 @@ function Retratos() {
             className="grid-item"
             src={portrait.img}
             key={key}
-            alt="portrait"
+            alt={`${portrait.name}`}
           />
         );
       })}
