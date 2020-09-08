@@ -1,26 +1,3 @@
 [
-  {
-    "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598163021/portfolio-mery/portraits/claramuzzio_kn9j3s.jpg",
-    "name": "Clara Muzzio"
-  },
-  {
-    "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598163021/portfolio-mery/portraits/juancuruchet_ts9v9m.jpg",
-    "name": "Juan Curuchet"
-  },
-  {
-    "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598163022/portfolio-mery/portraits/alejandrosim%C3%B3n_ndovzn.jpg",
-    "name": "Alejando Simón"
-  },
-  {
-    "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598163022/portfolio-mery/portraits/juliofraomeni-5230_qcucu3.jpg",
-    "name": "Julio Fraomeni"
-  },
-  {
-    "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598163021/portfolio-mery/portraits/joseluis-machinea_ltivaw.jpg",
-    "name": "José Luis Machinea"
-  },
-  {
-    "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598163021/portfolio-mery/portraits/joseluis-espert_irqicy.jpg",
-    "name": "José Luis Espert"
-  }
+  
 ]

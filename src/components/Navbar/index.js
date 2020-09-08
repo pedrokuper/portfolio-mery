@@ -6,13 +6,6 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  const navbarSections = [
-    "Secciones",
-    "Bio",
-    "Contacto",
-    <FaLinkedin />,
-    <FaInstagram />
-  ];
   return (
     <nav className="navbar">
       <div className="navbar-title">
@@ -58,6 +51,4 @@ function Navbar() {
 
 export default Navbar;
 
-{
-  /*  */
-}
+

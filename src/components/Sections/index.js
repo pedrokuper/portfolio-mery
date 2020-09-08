@@ -7,13 +7,14 @@ function Sections(props) {
 
   return (
     <div className="section-wrapper">
-      {sections.map((section) => {
+      {sections.map(({ title, img }) => {
+        //Desestructura el objeto y por eso lo puedo usar sin usar sections.title, sections.img
         return (
           <div className="section">
-            <Link to={`/${section.title.toLowerCase()}`}>
-              <img className="img" src={section.img} />
+            <Link to={`/galeria/${title.toLowerCase()}`}>
+              <img className="img" src={img} />
             </Link>
-            <p className="title">{section.title}</p>
+            <p className="title">{title}</p>
           </div>
         );
       })}
