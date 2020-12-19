@@ -7,7 +7,7 @@ import * as serviceWorker from "./serviceWorker";
 import Bio from "./pages/Bio";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
-import Documentary from './pages/Documentary'
+import Documentary from "./pages/Documentary";
 
 ReactDOM.render(
   <Router>
