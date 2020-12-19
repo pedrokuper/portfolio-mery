@@ -2,9 +2,7 @@ import React from "react";
 import "./style.scss";
 import { Link } from "react-router-dom";
 
-function Sections(props) {
-  const { sections } = props;
-
+function Sections({ sections }) {
   return (
     <div className="section-wrapper">
       {sections.map(({ title, img }) => {
