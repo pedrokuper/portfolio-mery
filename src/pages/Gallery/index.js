@@ -5,6 +5,7 @@ import media from "../../data/media.json";
 
 //https://fslightbox.com/react/documentation/control-slide-number
 // Debería agregar index a la data de las imagenes para poder usar dsp la funcion de toggle Para que identifique el toggler con el index de la data, así se abre en donde clickeas.
+// Hay que agregar captions tmb.
 
 function Gallery({ match }) {
   const [toggler, setToggler] = useState(false);
@@ -21,7 +22,6 @@ function Gallery({ match }) {
           />
         );
       })}
-      <button>Toggle Lightbox</button>
       <FsLightbox
         toggler={toggler}
         sources={mediaData.map((mediaItem) => {
