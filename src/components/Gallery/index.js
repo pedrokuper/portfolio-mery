@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import media from "../../data/media.json";
 import FsLightbox from "fslightbox-react";
 
-function Gallery({ match }) {
+function GalleryPage({ match }) {
   const mediaData = media.filter(({ id }) => id === match.params.sectionId);
 
   const [lightboxController, setLightboxController] = useState({

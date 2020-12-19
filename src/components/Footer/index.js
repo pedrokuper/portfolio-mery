@@ -12,11 +12,11 @@ function Footer() {
           Developed by{" "}
           <a
             className="link"
-            href="https://twitter.com/_pedrokuper"
+            href="https://github.com/pedrokuper"
             target="_blank"
             rel="noopener noreferrer"
           >
-            @_pedrokuper
+            @pedrokuper
           </a>
         </p>
       </div>

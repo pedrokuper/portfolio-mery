@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 import Bio from "./pages/Bio";
 import Contact from "./pages/Contact";
-import Gallery from "./pages/Gallery";
+import GalleryPage from "./pages/GalleryPage";
 import Documentary from "./pages/Documentary";
 
 ReactDOM.render(
@@ -14,7 +14,7 @@ ReactDOM.render(
     <Route exact path="/" component={App} />
     <Route exact path="/bio" component={Bio} />
     <Route exact path="/contacto" component={Contact} />
-    <Route exact path="/galeria/:sectionId" component={Gallery} />
+    <Route exact path="/galeria/:sectionId" component={GalleryPage} />
     <Route exact path="/galeria/documental" component={Documentary} />
   </Router>,
   document.getElementById("root")
