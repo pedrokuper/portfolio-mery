@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
+import Home from "./pages/Home";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
 import Bio from "./pages/Bio";
@@ -11,7 +11,7 @@ import Documentary from "./pages/Documentary";
 
 ReactDOM.render(
   <Router>
-    <Route exact path="/" component={App} />
+    <Route exact path="/" component={Home} />
     <Route exact path="/bio" component={Bio} />
     <Route exact path="/contacto" component={Contact} />
     <Route exact path="/galeria/:sectionId" component={GalleryPage} />

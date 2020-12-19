@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-import media from "../../data/media.json";
 import FsLightbox from "fslightbox-react";
 
-function GalleryPage({ match }) {
-  const mediaData = media.filter(({ id }) => id === match.params.sectionId);
-
+function Gallery({ data }) {
   const [lightboxController, setLightboxController] = useState({
     toggler: false,
     slide: 1,
@@ -19,10 +16,11 @@ function GalleryPage({ match }) {
 
   return (
     <div className="gallery-container">
-      {mediaData.map((mediaItem) => {
+      {data.map((mediaItem, key) => {
         const number = mediaItem.number;
         return (
           <img
+            key={key}
             onClick={() => openLightboxOnSlide(number)}
             className="img"
             src={mediaItem.src}
@@ -31,7 +29,7 @@ function GalleryPage({ match }) {
       })}
       <FsLightbox
         toggler={lightboxController.toggler}
-        sources={mediaData.map((mediaItem) => {
+        sources={data.map((mediaItem) => {
           return <img src={mediaItem.src} />;
         })}
         slide={lightboxController.slide}
