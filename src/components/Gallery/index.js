@@ -20,6 +20,7 @@ function Gallery({ data }) {
         const number = mediaItem.number;
         return (
           <img
+            loading="lazy"
             key={key}
             onClick={() => openLightboxOnSlide(number)}
             className="img"

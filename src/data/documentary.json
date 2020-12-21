@@ -1,18 +1,22 @@
 [
   {
+    "title": "casa animi",
+    "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1608574076/portfolio-mery/documentary/casa-trans/Casa_Trans2-min_y79o0v.jpg"
+  },
+  {
     "title": "aguas turbias",
     "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598163946/portfolio-mery/documentary/aguas-turbias/inundados-3184_mcq9kh.jpg"
   },
   {
-    "title": "cautiverio",
-    "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598164034/portfolio-mery/documentary/cautiverio/zoo-0143_oc5rop.jpg"
+    "title": "relocalizados papa francisco",
+    "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598164025/portfolio-mery/documentary/papa-francisco/ivc190205mudanzapf-3462_b4jplp.jpg"
   },
   {
-    "title": "relocalizados - osvaldo cruz",
+    "title": "relocalizados osvaldo cruz",
     "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598164012/portfolio-mery/documentary/osvaldo-cruz/ivc190911mudanzaosvaldocruz-2317_k2ch5r.jpg"
   },
   {
-    "title": "relocalizados - papa francisco ",
-    "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598164025/portfolio-mery/documentary/papa-francisco/ivc190205mudanzapf-3462_b4jplp.jpg"
+    "title": "cautiverio",
+    "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598164034/portfolio-mery/documentary/cautiverio/zoo-0143_oc5rop.jpg"
   }
 ]

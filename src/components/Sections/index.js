@@ -9,10 +9,10 @@ function Sections({ sections }) {
         //Desestructura el objeto y por eso lo puedo usar sin usar sections.title, sections.img
         return (
           <div className="section">
-            <Link to={`/galeria/${title.toLowerCase()}`}>
+            <Link to={`/galeria/${title.toLowerCase().replace(/\s/g, "-")}`}>
               <img className="img" src={img} />
             </Link>
-            <p className="title">{title}</p>
+            <p className="title">{title.toUpperCase()}</p>
           </div>
         );
       })}
