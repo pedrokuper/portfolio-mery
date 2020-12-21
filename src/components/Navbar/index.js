@@ -10,7 +10,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-title">
         <Link to="/">
-          <p>Maria Pirsch | Fotografía</p>
+          <p>María Pirsch | Fotografía</p>
         </Link>
       </div>
       <div>
@@ -50,5 +50,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-

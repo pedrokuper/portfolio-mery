@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
+import "./style.scss";
 
 function Gallery({ data }) {
   const [lightboxController, setLightboxController] = useState({
@@ -15,26 +16,34 @@ function Gallery({ data }) {
   }
 
   return (
-    <div className="gallery-container">
-      {data.map((mediaItem, key) => {
-        const number = mediaItem.number;
-        return (
-          <img
-            loading="lazy"
-            key={key}
-            onClick={() => openLightboxOnSlide(number)}
-            className="img"
-            src={mediaItem.src}
-          />
-        );
-      })}
-      <FsLightbox
-        toggler={lightboxController.toggler}
-        sources={data.map((mediaItem) => {
-          return <img src={mediaItem.src} />;
+    <div className="wrapper">
+      <div className="gallery-container">
+        {data.map((mediaItem, key) => {
+          const number = mediaItem.number;
+          return (
+            <img
+              loading="lazy"
+              key={key}
+              onClick={() => openLightboxOnSlide(number)}
+              className="img"
+              src={mediaItem.src}
+            />
+          );
         })}
-        slide={lightboxController.slide}
-      />
+        <FsLightbox
+          toggler={lightboxController.toggler}
+          sources={data.map((mediaItem) => {
+            return <img src={mediaItem.src} />;
+          })}
+          slide={lightboxController.slide}
+        />
+      </div>
+      <div className="text-container">
+        <h1>Casa Animi</h1>
+        <p>
+          Acá viene un texto y dsp le ponemos el <a href="">link a la nota</a>{" "}
+        </p>
+      </div>
     </div>
   );
 }

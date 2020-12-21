@@ -3,7 +3,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0px 30px;
+  background-color: rgba(236, 236, 236, 0.15);
+  padding: 5px;
+  text-align: center;
 
   .link:visited,
   :active,

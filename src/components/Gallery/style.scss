@@ -1,7 +1,16 @@
-.gallery-container {
-  margin: 0 auto;
-  overflow: hidden;
-  .img {
-    max-width: 20%;
+.wrapper {
+  display: flex;
+  .gallery-container {
+    max-width: 60%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    .img {
+      max-width: 20%;
+      border: 1px solid white;
+      flex-grow: 1;
+    }
   }
 }

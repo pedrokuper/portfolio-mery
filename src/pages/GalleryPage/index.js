@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./style.scss";
-import FsLightbox from "fslightbox-react";
 import media from "../../data/media.json";
 import Navbar from "../../components/Navbar";
 import Gallery from "../../components/Gallery";
