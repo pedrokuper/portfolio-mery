@@ -7,10 +7,10 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 10px;
+
     .img {
       max-width: 20%;
-      border: 1px solid white;
-      flex-grow: 1;
+      object-fit: cover;
     }
   }
 }
