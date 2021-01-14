@@ -1,0 +1,51 @@
+[
+  {
+    "sections": [
+      {
+        "title": "DOCUMENTAL",
+        "id": "documental",
+        "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598163946/portfolio-mery/documentary/aguas-turbias/inundados-3184_mcq9kh.jpg",
+        "subsection": [
+          {
+            "title": "casa animi",
+            "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1608574076/portfolio-mery/documentary/casa-trans/Casa_Trans2-min_y79o0v.jpg"
+          },
+          {
+            "title": "aguas turbias",
+            "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598163946/portfolio-mery/documentary/aguas-turbias/inundados-3184_mcq9kh.jpg"
+          },
+          {
+            "title": "relocalizados papa francisco",
+            "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598164025/portfolio-mery/documentary/papa-francisco/ivc190205mudanzapf-3462_b4jplp.jpg"
+          },
+          {
+            "title": "relocalizados osvaldo cruz",
+            "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598164012/portfolio-mery/documentary/osvaldo-cruz/ivc190911mudanzaosvaldocruz-2317_k2ch5r.jpg"
+          },
+          {
+            "title": "cautiverio",
+            "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598164034/portfolio-mery/documentary/cautiverio/zoo-0143_oc5rop.jpg"
+          }
+        ]
+      },
+
+      {
+        "title": "FOTOPERIODISMO",
+        "id": "fotoperiodismo",
+        "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598164343/portfolio-mery/journalism/fotoperiodismo-0870_zr6x41.jpg"
+      },
+
+      {
+        "title": "RETRATOS",
+        "id": "retratos",
+        "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598163021/portfolio-mery/portraits/joseluis-machinea_ltivaw.jpg"
+      },
+
+      {
+        "title": "PRODUCTO",
+        "id": "producto",
+        "img": "https://res.cloudinary.com/pedrokuper/image/upload/v1598164397/portfolio-mery/products/producto-5157_tvgxlk.jpg"
+      }
+    ]
+  }
+]
