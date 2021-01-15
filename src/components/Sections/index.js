@@ -10,7 +10,7 @@ function Sections({ sections }) {
         return (
           <div className="section">
             <Link to={`/seccion/${title.toLowerCase().replace(/\s/g, "-")}`}>
-              <img className="img" src={img} />
+              <img className="img" src={img} alt={title} />
             </Link>
             <p className="title">{title.toUpperCase()}</p>
           </div>

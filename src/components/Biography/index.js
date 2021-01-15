@@ -8,7 +8,7 @@ function Biography() {
       <h4 className="title">Biografía</h4>
       <div className="bio-wrapper">
         <div>
-          <img className="bio-img" src={bioPic} />
+          <img className="bio-img" src={bioPic} alt="Maria Pirsch" />
         </div>
         <div>
           <p className="bio-text">
