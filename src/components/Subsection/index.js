@@ -1,9 +1,8 @@
 import React from "react";
-import { Link, useParams, useRouteMatch } from "react-router-dom";
+import { Link, useRouteMatch } from "react-router-dom";
 
 function Subsection({ data }) {
-  const { sectionId } = useParams();
-  const { url, path } = useRouteMatch();
+  const { path } = useRouteMatch();
 
   return (
     <>
@@ -14,7 +13,7 @@ function Subsection({ data }) {
             <>
               <div key={key} className="section">
                 <Link to={`${path}/${title.replace(/\s/g, "-")}`}>
-                  <img className="img" src={img} alt="" />
+                  <img className="img" src={img} alt={title} />
                 </Link>
                 <p className="title">{title.toUpperCase()}</p>
               </div>

@@ -37,7 +37,7 @@ function Gallery({ data, textInfo }) {
         <FsLightbox
           toggler={lightboxController.toggler}
           sources={data.map((mediaItem) => {
-            return <img src={mediaItem.src} />;
+            return <img src={mediaItem.src} alt={mediaItem.id} />;
           })}
           slide={lightboxController.slide}
         />

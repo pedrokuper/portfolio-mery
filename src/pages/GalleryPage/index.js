@@ -3,7 +3,7 @@ import "./style.scss";
 import media from "../../data/media.json";
 import Navbar from "../../components/Navbar";
 import Gallery from "../../components/Gallery";
-import Footer from "../../components/Footer";
+//import Footer from "../../components/Footer";
 import textInfo from "../../data/misc.json";
 
 //https://fslightbox.com/react/documentation/control-slide-number

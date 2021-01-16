@@ -1,10 +1,8 @@
 import React from "react";
 import "./style.scss";
-import { Link, useParams, useRouteMatch } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Sections({ sections }) {
-  const { sectionId } = useParams();
-  const { url, path } = useRouteMatch();
   return (
     <div className="section-wrapper">
       {sections.map((section, key) => {
