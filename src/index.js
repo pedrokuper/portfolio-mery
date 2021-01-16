@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import * as serviceWorker from "./serviceWorker";
 import Bio from "./pages/Bio";
 import Contact from "./pages/Contact";
 import GalleryPage from "./pages/GalleryPage";
@@ -14,14 +13,13 @@ ReactDOM.render(
     <Route exact path="/" component={Home} />
     <Route exact path="/bio" component={Bio} />
     <Route exact path="/contacto" component={Contact} />
-    <Route exact path="/:sectionId" component={GalleryPage} />
-    <Route exact path="/documental" component={Documentary} />
-    <Route exact path="/documental/:sectionId" component={GalleryPage} />
+    <Route exact path="/galeria/:sectionId" component={GalleryPage} />
+    <Route exact path="/galeria/documental" component={Documentary} />
+    <Route
+      exact
+      path="/galeria/documental/:sectionId"
+      component={GalleryPage}
+    />
   </Router>,
   document.getElementById("root")
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();

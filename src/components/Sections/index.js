@@ -9,7 +9,7 @@ function Sections({ sections }) {
         const { title, img } = section;
         return (
           <div key={key} className="section">
-            <Link to={`/${title.toLowerCase()}`}>
+            <Link to={`/galeria/${title.toLowerCase()}`}>
               <img className="img" src={img} alt="" />
             </Link>
             <p className="title">{title}</p>
