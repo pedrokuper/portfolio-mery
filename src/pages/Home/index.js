@@ -2,13 +2,13 @@ import React from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import Sections from "../../components/Sections";
-import sections from "../../data/sections.json";
+import data from "../../data/portfolio_data.json";
 
 function Home() {
   return (
     <>
       <Navbar />
-      <Sections sections={sections} />
+      <Sections sections={data} />
       <Footer />
     </>
   );

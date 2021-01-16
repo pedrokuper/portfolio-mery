@@ -1,16 +1,27 @@
 .wrapper {
   display: flex;
+  padding: 30px;
   .gallery-container {
-    max-width: 60%;
+    max-width: 55%;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 8px;
 
     .img {
       max-width: 20%;
       object-fit: cover;
     }
   }
+}
+
+.fade::after {
+  content: "";
+  background-color: black;
+  width: 10%;
+  height: 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }

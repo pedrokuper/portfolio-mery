@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
+import TextContainer from "../TextContainer";
 import "./style.scss";
 
-function Gallery({ data }) {
+function Gallery({ data, textInfo }) {
   const [lightboxController, setLightboxController] = useState({
     toggler: false,
     slide: 1,
@@ -21,13 +22,16 @@ function Gallery({ data }) {
         {data.map((mediaItem, key) => {
           const number = mediaItem.number;
           return (
-            <img
-              loading="lazy"
-              key={key}
-              onClick={() => openLightboxOnSlide(number)}
-              className="img"
-              src={mediaItem.src}
-            />
+            <>
+              <img
+                loading="lazy"
+                key={key}
+                onClick={() => openLightboxOnSlide(number)}
+                className="img"
+                src={mediaItem.src}
+                alt={mediaItem.id}
+              />
+            </>
           );
         })}
         <FsLightbox
@@ -38,12 +42,7 @@ function Gallery({ data }) {
           slide={lightboxController.slide}
         />
       </div>
-      <div className="text-container">
-        <h1>Casa Animi</h1>
-        <p>
-          Acá viene un texto y dsp le ponemos el <a href="">link a la nota</a>{" "}
-        </p>
-      </div>
+      {textInfo && <TextContainer textInfo={textInfo} />}
     </div>
   );
 }

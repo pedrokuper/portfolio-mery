@@ -4,9 +4,9 @@ import "./style.scss";
 function Footer() {
   return (
     <footer className="footer">
-      <div>
+      <span>
         <p>Bs. As. Argentina | © Maria Pirsch </p>
-      </div>
+      </span>
       <div>
         <p>
           Developed by{" "}
@@ -16,7 +16,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            @pedrokuper
+            <strong>@pedrokuper</strong>
           </a>
         </p>
       </div>

@@ -16,6 +16,11 @@ ReactDOM.render(
     <Route exact path="/contacto" component={Contact} />
     <Route exact path="/seccion/:sectionId" component={GalleryPage} />
     <Route exact path="/seccion/documental" component={Documentary} />
+    <Route
+      exact
+      path="/seccion/documental/:sectionId"
+      component={GalleryPage}
+    />
   </Router>,
   document.getElementById("root")
 );

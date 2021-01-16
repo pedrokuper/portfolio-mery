@@ -1,11 +1,14 @@
 import React from "react";
-import Sections from "../../components/Sections";
-import documentary from "../../data/documentary.json";
+import Subsection from "../../components/Subsection";
+import data from "../../data/portfolio_data.json";
 
 function Documentary() {
+  const [documentary] = data;
+  console.log(documentary)
+
   return (
     <>
-      <Sections sections={documentary} />
+      <Subsection data={documentary.subsection} />
     </>
   );
 }
