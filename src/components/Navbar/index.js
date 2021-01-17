@@ -17,11 +17,6 @@ function Navbar() {
         <p></p>
       </div>
       <ul className="navlinks">
-        <li className="navlinks-item">Secciones</li>
-        <li className="navlinks-item">
-          <RiArrowDropDownLine />
-        </li>
-
         <Link to="/bio">
           <li className="navlinks-item">Bio</li>
         </Link>

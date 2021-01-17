@@ -1,15 +1,23 @@
 import React from "react";
+import "./style.scss";
 
 function TextContainer({ textInfo }) {
-  console.log(textInfo);
   return (
     <>
       <div>
-        {textInfo.map(({ txt, url }) => {
+        {textInfo.map(({ txt, url, title }) => {
           return (
             <>
-              <p>{txt}</p>
-              <a href={url}>Link a la nota</a>
+              <h4 className="text-title">{title}</h4>
+              <p className="text">{txt}</p>
+              <a
+                className="text-link"
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Más información
+              </a>
             </>
           );
         })}

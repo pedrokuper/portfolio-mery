@@ -18,8 +18,7 @@ code {
     monospace;
 }
 
-a,
-:link,
+a:link,
 :visited,
 :active {
   color: #000;

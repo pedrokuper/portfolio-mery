@@ -8,5 +8,27 @@
     "id": "cautiverio",
     "txt": "A la grande le puse cuca",
     "url": "https://youtu.be/l-kqP6NjD-4"
+  },
+  {
+    "id": "aguas-turbias",
+    "title": "Luján/San Antonio de Areco (2015)",
+    "txt": "Manuel Castellano, 23 años. San Antonio de Areco. El agua llegó a 30 cm de altura en su casa.",
+    "url": ""
+  },
+
+  {
+    "id": "relocalizados-osvaldo-cruz",
+    "title": "",
+    "txt": "Nora y Emilio fueron vecinos de la villa 21-24 hace más de 40 años. Se mudaron al complejo de vivienda social Osvaldo Cruz. En conjunto con el gobierno de la Nación y de la Ciudad de Buenos Aires, este proyecto permite que más de mil familias dejen de vivir a la vera del Riachuelo."
+  },
+  {
+    "id": "relocalizados-papa-francisco",
+    "title": "",
+    "txt": "La familia Ávila se prepara para mudarse de su casa en la Villa 20, en el barrio de Soldati, al complejo de vivienda social Papa Francisco, construido por el Instituto de Vivienda de la Ciudad de Buenos Aires."
+  },
+  {
+    "id": "cautiverio",
+    "title": "",
+    "txt": "El mítico zoo de Buenos Aires cierra sus puertas para transformarse en un ecoparque. Los cientos de animales que lo habitan serán llevados a reservas o centros de proteccionismo y, en los casos que sea posible, serán liberados. "
   }
 ]
