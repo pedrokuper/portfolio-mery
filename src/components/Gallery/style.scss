@@ -1,6 +1,8 @@
 .wrapper {
   display: flex;
   padding: 30px;
+  align-items: flex-start;
+
   .gallery-container {
     max-width: 55%;
     overflow: hidden;
@@ -15,14 +17,4 @@
       cursor: pointer;
     }
   }
-}
-
-.fade::after {
-  content: "";
-  background-color: black;
-  width: 10%;
-  height: 20%;
-  position: absolute;
-  top: 0;
-  left: 0;
 }

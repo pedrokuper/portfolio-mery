@@ -2,7 +2,6 @@ import React from "react";
 import "./style.scss";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { RiArrowDropDownLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
 function Navbar() {

@@ -1,18 +1,17 @@
 import React from "react";
 import "./style.scss";
 import { Link } from "react-router-dom";
+import Section from "../Section";
 
-function Sections({ sections }) {
+function Sections({ sections, urlPath }) {
   return (
     <div className="section-wrapper">
-      {sections.map((section, key) => {
-        const { title, img } = section;
+      {sections.map(({ title, img }, key) => {
         return (
           <div key={key} className="section">
-            <Link to={`/galeria/${title.toLowerCase()}`}>
-              <img className="img" src={img} alt="" />
+            <Link to={`${urlPath}/${title.toLowerCase().replace(/\s/g, "-")}`}>
+              <Section key={key} img={img} title={title} />
             </Link>
-            <p className="title">{title}</p>
           </div>
         );
       })}
@@ -21,32 +20,3 @@ function Sections({ sections }) {
 }
 
 export default Sections;
-
-/* 
-
-import React from "react";
-import "./style.scss";
-import { Link, useParams, useRouteMatch } from "react-router-dom";
-
-function Sections({ sections }) {
-  const { sectionId } = useParams();
-  const { url, path } = useRouteMatch();
-  console.log("url", url, "path", path);
-  return (
-    <div className="section-wrapper">
-      {sections.map(({ title, img }, key) => {
-        const urlTitle = title.toLowerCase().replace(/\s/g, "-");
-        return (
-          <div key={key} className="section">
-            <Link to={`/seccion/${urlTitle}/${sectionId}`}>
-              <img className="img" src={img} alt={title} />
-            </Link>
-            <p className="title">{title.toUpperCase()}</p>
-          </div>
-        );
-      })}
-    </div>
-  );
-}
-
-*/

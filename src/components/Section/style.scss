@@ -1,0 +1,19 @@
+.section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .section {
+    margin: 20px;
+
+    .section-img {
+      max-width: 600px;
+      box-shadow: 2px 2px 3px #ccc;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+  }
+}
