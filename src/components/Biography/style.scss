@@ -1,6 +1,6 @@
 .title {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: 50px;
 }
 
@@ -12,8 +12,8 @@
   margin-bottom: 95px;
 
   .bio-img {
-    max-width: 650px;
-    margin: 0px 50px;
+    height: 440px;
+    margin: 0px 20px;
   }
 
   .bio-text {
@@ -21,5 +21,6 @@
     max-width: 700px;
     line-height: 2.2rem;
     text-align: justify;
+    font-size: 1rem;
   }
 }

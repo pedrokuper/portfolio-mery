@@ -1,18 +1,17 @@
 import React from "react";
 import "./style.scss";
 import { Link } from "react-router-dom";
+import Section from "../Section";
 
-function Sections({ sections }) {
+function Sections({ sections, urlPath }) {
   return (
     <div className="section-wrapper">
-      {sections.map((section, key) => {
-        const { title, img } = section;
+      {sections.map(({ title, img }, key) => {
         return (
           <div key={key} className="section">
-            <Link to={`/galeria/${title.toLowerCase()}`}>
-              <img className="img" src={img} alt="" />
+            <Link to={`${urlPath}/${title.toLowerCase().replace(/\s/g, "-")}`}>
+              <Section key={key} img={img} title={title} />
             </Link>
-            <p className="title">{title}</p>
           </div>
         );
       })}
@@ -21,4 +20,3 @@ function Sections({ sections }) {
 }
 
 export default Sections;
-
