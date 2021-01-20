@@ -16,9 +16,13 @@ function Gallery({ data, textInfo }) {
     });
   }
 
+  const validator = textInfo.length > 0 ? "gallery-container" : "coloroto";
+
+  // console.log(textInfo[0].id)
+
   return (
     <div className="wrapper">
-      <div className="gallery-container">
+      <div className={validator}>
         {data.map((mediaItem, key) => {
           const number = mediaItem.number;
           return (
@@ -42,7 +46,11 @@ function Gallery({ data, textInfo }) {
           slide={lightboxController.slide}
         />
       </div>
-      {textInfo && <TextContainer textInfo={textInfo} />}
+      {textInfo && (
+        <div className="text-container">
+          <TextContainer textInfo={textInfo} />
+        </div>
+      )}
     </div>
   );
 }

@@ -8,16 +8,18 @@ function TextContainer({ textInfo }) {
         {textInfo.map(({ txt, url, title }) => {
           return (
             <>
-              <h4 className="text-title">{title}</h4>
+              <h2 className="text-title">{title}</h2>
               <p className="text">{txt}</p>
-              <a
-                className="text-link"
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Más información
-              </a>
+              {url && (
+                <a
+                  className="text-link"
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Más información
+                </a>
+              )}
             </>
           );
         })}

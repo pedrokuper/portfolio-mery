@@ -8,6 +8,8 @@
 body {
   margin: 0;
   font-family: "Old Standard TT", serif, "Raleway", sans-serif;
+  background-color: rgb(240, 240, 240);
+  color: #000;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -23,4 +25,8 @@ a:link,
 :active {
   color: #000;
   text-decoration: none;
+}
+
+a:hover {
+  color: rgb(131, 131, 131);
 }
