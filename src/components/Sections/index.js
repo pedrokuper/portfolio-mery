@@ -7,11 +7,18 @@ function Sections({ sections, urlPath }) {
   return (
     <div className="section-wrapper">
       {sections.map(({ title, img }, key) => {
+        const url = title === "DOCUMENTAL" ? "/documental" : { urlPath };
         return (
           <div key={key} className="section">
-            <Link to={`${urlPath}/${title.toLowerCase().replace(/\s/g, "-")}`}>
-              <Section key={key} img={img} title={title} />
-            </Link>
+            {title === "DOCUMENTAL" ? (
+              <Link to={`/documental/`}>
+                <Section key={key} img={img} title={title} />
+              </Link>
+            ) : (
+              <Link to={`${urlPath}/${title.toLowerCase().replace(/\s/g, "-")}`}>
+                <Section key={key} img={img} title={title} />
+              </Link>
+            )}
           </div>
         );
       })}

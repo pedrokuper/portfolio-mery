@@ -13,13 +13,9 @@ ReactDOM.render(
     <Route exact path="/" component={Home} />
     <Route exact path="/bio" component={Bio} />
     <Route exact path="/contacto" component={Contact} />
-    <Route exact path="/galeria/:sectionId" component={GalleryPage} />
-    <Route exact path="/galeria/documental" component={Documentary} />
-    <Route
-      exact
-      path="/galeria/documental/:sectionId"
-      component={GalleryPage}
-    />
+    <Route path="/galeria/:sectionId" component={GalleryPage} />
+    <Route exact path="/documental" component={Documentary} />
+    <Route exact path="/documental/:sectionId" component={GalleryPage} />
   </Router>,
   document.getElementById("root")
 );

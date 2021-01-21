@@ -6,7 +6,8 @@ import data from "../../data/documentarySections.json";
 function Documentary() {
   return (
     <>
-      <Sections sections={data} urlPath="/galeria/documental" />
+      <Navbar />
+      <Sections sections={data} urlPath="/documental" />
     </>
   );
 }
