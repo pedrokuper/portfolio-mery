@@ -7,7 +7,6 @@ function Sections({ sections, urlPath }) {
   return (
     <div className="section-wrapper">
       {sections.map(({ title, img }, key) => {
-        const url = title === "DOCUMENTAL" ? "/documental" : { urlPath };
         return (
           <div key={key} className="section">
             {title === "DOCUMENTAL" ? (
