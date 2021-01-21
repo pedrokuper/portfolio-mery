@@ -14,6 +14,7 @@ function GalleryPage({ match }) {
     return filterData;
   }
 
+
   return (
     <>
       <Navbar />

@@ -14,7 +14,9 @@ function Sections({ sections, urlPath }) {
                 <Section key={key} img={img} title={title} />
               </Link>
             ) : (
-              <Link to={`${urlPath}/${title.toLowerCase().replace(/\s/g, "-")}`}>
+              <Link
+                to={`${urlPath}/${title.toLowerCase().replace(/\s/g, "-")}`}
+              >
                 <Section key={key} img={img} title={title} />
               </Link>
             )}

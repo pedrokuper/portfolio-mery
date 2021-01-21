@@ -13,7 +13,7 @@
     flex-basis: auto;
 
     .img {
-      max-width: 20%;
+      max-width: 23%;
       object-fit: cover;
       cursor: pointer;
       flex-grow: 1;
@@ -37,4 +37,10 @@
   .text-container {
     max-width: 50%;
   }
+}
+
+.uneven {
+  max-width: 25%;
+  object-fit: cover;
+  cursor: pointer;
 }

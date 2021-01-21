@@ -17,9 +17,7 @@ function Gallery({ data, textInfo }) {
   }
 
   const validator = textInfo.length > 0 ? "gallery-container" : "coloroto";
-
-  // console.log(textInfo[0].id)
-
+  const imgSize = data.length % 2 === 0 ? "img" : "uneven";
   return (
     <div className="wrapper">
       <div className={validator}>
@@ -31,7 +29,7 @@ function Gallery({ data, textInfo }) {
                 loading="lazy"
                 key={key}
                 onClick={() => openLightboxOnSlide(number)}
-                className="img"
+                className={imgSize}
                 src={mediaItem.src}
                 alt={mediaItem.id}
               />
