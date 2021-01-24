@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { BsArrowLeft } from "react-icons/bs";
 
 import "./style.scss";
 

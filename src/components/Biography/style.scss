@@ -1,8 +1,4 @@
-.title {
-  text-align: center;
-  font-size: 1.75rem;
-  margin-bottom: 50px;
-}
+@import "../../styles/variables";
 
 .bio-wrapper {
   display: flex;
@@ -11,16 +7,33 @@
   align-items: center;
   margin-bottom: 95px;
 
+  .title {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 50px;
+  }
+
   .bio-img {
     height: 440px;
     margin: 0px 20px;
+
+    @media screen and (min-width: $sm) {
+      height: 145px;
+      max-width: 320px;
+    }
   }
 
   .bio-text {
     margin: 15px 50px;
-    max-width: 700px;
+
     line-height: 2.2rem;
     text-align: justify;
     font-size: 1rem;
+
+    @media screen and (min-width: $sm) {
+      max-width: 320px;
+      font-size: 1rem;
+      line-height: 2rem;
+    }
   }
 }

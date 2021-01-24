@@ -7,9 +7,10 @@ function Biography() {
     "“Personalmente, no pienso en la fotografía: lo que me interesa es la vida” - Henri Cartier-Bresson"
   );
   return (
-    <>
-      <h4 className="title">Biografía</h4>
-      <div className="bio-wrapper">
+    <main className="bio-container">
+      <section className="bio-wrapper">
+        <h4 className="title">Biografía</h4>
+
         <div>
           <img className="bio-img" src={bioPic} alt="Maria Pirsch" />
         </div>
@@ -37,8 +38,8 @@ function Biography() {
             fotografía documental.
           </p>
         </div>
-      </div>
-    </>
+      </section>
+    </main>
   );
 }
 

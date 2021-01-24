@@ -7,7 +7,14 @@ function Contact() {
     <>
       <Navbar />
       <div className="contact-wrapper">
-        <p className="contact-text">pirschmaria@gmail.com</p>
+        <a
+          className="contact-text"
+          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=mariapirsch@gmail.com"
+          target="_blank "
+          rel="noopener noreferrer"
+        >
+          pirschmaria@gmail.com
+        </a>
       </div>
     </>
   );
