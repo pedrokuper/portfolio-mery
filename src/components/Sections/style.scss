@@ -1,19 +1,22 @@
 @import "../styles/variables";
 
-.section-wrapper {
+.sections-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  overflow: hidden;
 
-  // @media screen and (max-width: $sm) {
+  .sections-container {
+    @media screen and (max-width: $sm) {
+      margin-top: 90px;
+    }
+  }
 
-  // }
+  .section {
+    margin: 20px;
 
-  // .section {
-  //   margin: 20px;
-
-  //   @media screen and (max-width: $sm) {
-
-  //   }
-  // }
+    @media screen and (max-width: $sm) {
+      margin: 20px;
+    }
+  }
 }
