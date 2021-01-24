@@ -1,3 +1,5 @@
+@import "../styles/variables";
+
 .footer {
   font-family: "Raleway";
   display: flex;
@@ -6,6 +8,11 @@
   background-color: rgba(236, 236, 236, 0.15);
   padding: 5px;
   text-align: center;
+
+  @media screen and (max-width: $sm) {
+    font-size: 0.75rem;
+    justify-content: center;
+  }
 
   .link:visited,
   :active,

@@ -1,0 +1,22 @@
+.sidebar-container {
+  color: #fff;
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-between;
+    text-align: left;
+    flex-shrink: 0;
+    .sidebar-elemenet {
+      font-size: 1.5rem;
+      list-style-type: none;
+      text-decoration: none;
+      color: #fff;
+      margin: 20px 0px;
+
+      &:active {
+        color: rgb(189, 189, 189);
+      }
+    }
+  }
+}

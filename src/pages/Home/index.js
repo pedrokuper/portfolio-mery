@@ -6,6 +6,7 @@ import Sections from "../../components/Sections";
 import data from "../../data/sections.json";
 
 function Home() {
+  
   return (
     <>
       <Navbar />

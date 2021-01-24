@@ -3,6 +3,9 @@ import "./style.scss";
 import bioPic from "../../assets/images/bio-picture.jpg";
 
 function Biography() {
+  console.log(
+    "“Personalmente, no pienso en la fotografía: lo que me interesa es la vida” - Henri Cartier-Bresson"
+  );
   return (
     <>
       <h4 className="title">Biografía</h4>

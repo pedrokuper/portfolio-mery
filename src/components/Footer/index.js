@@ -9,7 +9,7 @@ function Footer() {
       </span>
       <div>
         <p>
-          Developed by{" "}
+          &nbsp; &nbsp;Developed by{" "}
           <a
             className="link"
             href="https://github.com/pedrokuper"

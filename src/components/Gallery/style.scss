@@ -1,5 +1,5 @@
 .wrapper {
-  display: flex;
+  display: flex !important;
   padding: 55px;
   align-items: flex-start;
   margin: 0px 55px;
@@ -10,17 +10,15 @@
     gap: 5px;
     max-width: 50%;
     overflow: hidden;
-    flex-basis: auto;
 
     .img {
       max-width: 23%;
       object-fit: cover;
       cursor: pointer;
-      flex-grow: 1;
     }
   }
 
-  .coloroto {
+  .no-text {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

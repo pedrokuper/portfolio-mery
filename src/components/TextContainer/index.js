@@ -5,9 +5,9 @@ function TextContainer({ textInfo }) {
   return (
     <>
       <div>
-        {textInfo.map(({ txt, url, title }) => {
+        {textInfo.map(({ txt, url, title }, key) => {
           return (
-            <>
+            <div key={key}>
               <h2 className="text-title">{title}</h2>
               <p className="text">{txt}</p>
               {url && (
@@ -20,7 +20,7 @@ function TextContainer({ textInfo }) {
                   Más información
                 </a>
               )}
-            </>
+            </div>
           );
         })}
       </div>

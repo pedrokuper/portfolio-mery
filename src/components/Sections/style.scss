@@ -1,5 +1,19 @@
+@import "../styles/variables";
+
 .section-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
+  // @media screen and (max-width: $sm) {
+
+  // }
+
+  // .section {
+  //   margin: 20px;
+
+  //   @media screen and (max-width: $sm) {
+
+  //   }
+  // }
 }
