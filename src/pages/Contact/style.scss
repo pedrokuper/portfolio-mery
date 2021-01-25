@@ -1,11 +1,15 @@
 @import "../../styles/variables";
 .contact-wrapper {
   display: flex;
-  height: 690px;
+  height: 100vh;
   margin: 0 auto;
 
   @media screen and (min-width: $sm) {
-    height: 700px;
+    height: 100vh;
+  }
+
+  @media screen and (min-width: $sm-m) {
+    height: 100vh;
   }
 
   .contact-text {
@@ -17,6 +21,10 @@
 
     @media screen and (min-width: $sm) {
       font-size: 1rem;
+      padding: 20px;
+    }
+    @media screen and (min-width: $sm-m) {
+      font-size: 2rem;
       padding: 20px;
     }
 

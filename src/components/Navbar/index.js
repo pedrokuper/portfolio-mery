@@ -28,12 +28,12 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="navbar-title">
+      <div className="navbar-title-container">
         <div className="navbar-back-arrow">
           {pathname !== "/" && <BsArrowLeft onClick={handleBackButton} />}
         </div>
         <Link to="/">
-          <p>María Pirsch | Fotografía</p>
+          <p className="navbar-title">María Pirsch | Fotografía</p>
         </Link>
         <div className="burger-menu-container">
           <Menu

@@ -9,7 +9,7 @@
   padding: 5px;
   text-align: center;
 
-  @media screen and (max-width: $sm) {
+  @media screen and (min-width: $sm) {
     font-size: 0.75rem;
     justify-content: center;
   }
