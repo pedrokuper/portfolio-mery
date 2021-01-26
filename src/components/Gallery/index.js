@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
-import "react-lazy-load-image-component/src/effects/opacity.css";
-
 import TextContainer from "../TextContainer";
 import "./style.scss";
 
