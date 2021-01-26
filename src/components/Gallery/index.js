@@ -19,8 +19,8 @@ function Gallery({ data, textInfo }) {
     });
   }
 
-  const ifText = textInfo.length > 0 ? "gallery-container" : "no-text";
-  const imgSize = data.length % 2 === 0 ? "img" : "uneven";
+  const ifText = textInfo.length > 0 ? "gallery-container-with-text" : "gallery-container-without-text";
+  const imgSize = data.length % 2 === 0 ? "even" : "uneven";
   return (
     <div className="wrapper">
       <div className={ifText}>
