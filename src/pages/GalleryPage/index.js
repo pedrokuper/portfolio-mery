@@ -3,6 +3,7 @@ import media from "../../data/media.json";
 import Navbar from "../../components/Navbar";
 import Gallery from "../../components/Gallery";
 import galleryInfo from "../../data/galleryInformation.json";
+import Footer from "../../components/Footer";
 
 function GalleryPage({ match }) {
   const { sectionId } = match.params;
@@ -14,7 +15,6 @@ function GalleryPage({ match }) {
     return filterData;
   }
 
-
   return (
     <>
       <Navbar />
@@ -22,6 +22,7 @@ function GalleryPage({ match }) {
         data={handleFilter(media)}
         textInfo={handleFilter(galleryInfo)}
       />
+      <Footer />
     </>
   );
 }

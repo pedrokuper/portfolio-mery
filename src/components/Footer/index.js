@@ -3,12 +3,11 @@ import "./style.scss";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <span>
-        <p>Bs. As. Argentina | © Maria Pirsch </p>
-      </span>
-      <div>
-        <p>
+    <div className="footer-wrapper">
+      <footer className="footer">
+        <span>Bs. As. Argentina | © Maria Pirsch</span>
+
+        <span>
           &nbsp; &nbsp;Developed by{" "}
           <a
             className="link"
@@ -18,9 +17,9 @@ function Footer() {
           >
             <strong>@pedrokuper</strong>
           </a>
-        </p>
-      </div>
-    </footer>
+        </span>
+      </footer>
+    </div>
   );
 }
 

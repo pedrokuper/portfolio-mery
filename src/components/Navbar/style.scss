@@ -5,38 +5,40 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 30px;
+  padding: 20px 20px;
 
   @media screen and (min-width: $sm) {
     position: fixed;
-    background-color: #eeeded;
-  }
-
-  @media screen and (min-width: $sm-m) {
-    font-size: 1.35rem;
-    margin: 0 auto;
+    background-color: #f0f0f0;
   }
 
   .navbar-title-container {
     font-style: italic;
     font-size: 2rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
 
-    @media screen and (min-width: $sm) {
-      font-size: 1.35rem;
-      display: flex;
-      justify-content: center;
+    .navbar-title {
+      display: inline-flex;
+      font-size: 1.75rem;
+      margin-left: 80px;
       align-items: center;
-      margin: 0 auto;
-      margin-top: 8px;
-      margin-left: 50px;
-    }
+      justify-content: center;
 
-    @media screen and (min-width: $sm-m) {
-      font-size: 1.35rem;
-      margin: 0 auto;
-      margin-top: 9px;
-      margin-left: 225px;
+      @media screen and (min-width: $sm) {
+        font-size: 1.3rem;
+      }
+
+      @media screen and (min-width: $sm-m) {
+        font-size: 1.35rem;
+        margin-left: 155px;
+      }
+
+      @media screen and (min-width: $md) {
+        font-size: 1.45rem;
+        margin-left: 0px;
+      }
     }
 
     .burger-menu-container {
@@ -49,6 +51,11 @@
 
       @media screen and (min-width: $sm) {
         display: none;
+      }
+
+      @media screen and (min-width: $md) {
+        display: flex;
+        margin-right: 20px;
       }
     }
     .navbar-back-arrow-off {
@@ -68,9 +75,14 @@
     }
     .navlinks-item {
       margin: 0 25px;
-      font-size: 1.5rem;
+      font-size: 1.45rem;
       @media screen and (min-width: $sm) {
         display: none;
+      }
+
+      @media screen and (min-width: $md) {
+        display: flex;
+        font-size: 1.35rem;
       }
     }
   }
@@ -87,7 +99,7 @@
   @media (max-width: $sm-burger) {
     display: none;
   }
-  @media (min-width: $md-burger) {
+  @media (min-width: $md) {
     display: none;
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 import "./style.scss";
 
 function Contact() {
@@ -16,6 +17,7 @@ function Contact() {
           pirschmaria@gmail.com
         </a>
       </div>
+      <Footer />
     </>
   );
 }
