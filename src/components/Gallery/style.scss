@@ -39,10 +39,8 @@
     justify-content: center;
     max-width: 85%;
     margin: 0 auto;
-    gap: 5px;
 
     @media screen and (min-width: $sm) {
-      gap: 3px;
       align-items: center;
       justify-content: center;
     }
@@ -51,6 +49,7 @@
       max-width: 350px;
       object-fit: cover;
       cursor: pointer;
+      margin-bottom: 3px;
     }
   }
   .text-container {
