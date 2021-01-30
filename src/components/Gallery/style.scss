@@ -15,11 +15,9 @@
   .gallery-container-with-text {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
     overflow: hidden;
 
     @media screen and (min-width: $sm) {
-      gap: 3px;
       max-width: 100%;
     }
 
@@ -27,6 +25,7 @@
       max-width: 23%;
       object-fit: cover;
       cursor: pointer;
+      margin: 0 0 3px 3px;
 
       @media screen and (min-width: $sm) {
         max-width: 49%;
@@ -67,6 +66,7 @@
   max-width: 25%;
   object-fit: cover;
   cursor: pointer;
+  margin-bottom: 5px;
 
   @media screen and (min-width: $sm) {
     max-width: 100%;
