@@ -12,6 +12,14 @@
     margin: 0px 5px;
   }
 
+  @media screen and (min-width: $lg) {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 55px;
+    margin: 0px 55px;
+  }
+
   .gallery-container-with-text {
     display: flex;
     flex-wrap: wrap;
@@ -21,6 +29,10 @@
       max-width: 100%;
     }
 
+    @media screen and (min-width: $lg) {
+      max-width: 50%;
+    }
+
     .even {
       max-width: 23%;
       object-fit: cover;
@@ -28,7 +40,10 @@
       margin: 0 0 3px 3px;
 
       @media screen and (min-width: $sm) {
-        max-width: 49%;
+        max-width: 188px;
+      }
+      @media screen and (min-width: $lg) {
+        max-width: 23%;
       }
     }
   }
@@ -58,6 +73,11 @@
       margin-top: 5rem;
       max-width: 100%;
     }
+
+    @media screen and (min-width: $lg) {
+      margin-top: 0rem;
+      max-width: 100%;
+    }
   }
 }
 
@@ -68,6 +88,9 @@
   margin-bottom: 5px;
 
   @media screen and (min-width: $sm) {
-    max-width: 100%;
+    max-width: 400px;
+  }
+  @media screen and (min-width: $lg) {
+    max-width: 25%;
   }
 }
