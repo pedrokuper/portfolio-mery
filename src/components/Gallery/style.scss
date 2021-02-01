@@ -26,11 +26,11 @@
     overflow: hidden;
 
     @media screen and (min-width: $sm) {
-      max-width: 100%;
+      max-width: 600px;
     }
 
     @media screen and (min-width: $lg) {
-      max-width: 50%;
+      max-width: 960px;
     }
 
     .even {
