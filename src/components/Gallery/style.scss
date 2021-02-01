@@ -21,16 +21,15 @@
   }
 
   .gallery-container-with-text {
-    display: flex;
     flex-wrap: wrap;
     overflow: hidden;
 
     @media screen and (min-width: $sm) {
-      max-width: 600px;
+      max-width: 100%;
     }
 
     @media screen and (min-width: $lg) {
-      max-width: 960px;
+      max-width: 50%;
     }
 
     .even {
@@ -64,7 +63,7 @@
     }
 
     .even {
-      max-width: 90%;
+      max-width: 80%;
       object-fit: cover;
       cursor: pointer;
       margin-bottom: 3px;
