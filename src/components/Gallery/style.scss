@@ -21,9 +21,7 @@
 
   .gallery-container-with-text {
     overflow: hidden;
-    display: flex;
     flex-wrap: wrap;
-    gap: 5px;
 
     @media screen and (min-width: $sm) {
       max-width: 100%;
@@ -35,15 +33,30 @@
     }
 
     .even {
-      max-width: 23%;
+      max-width: 80%;
       object-fit: cover;
       cursor: pointer;
+      margin-bottom: 3px;
 
       @media screen and (min-width: $sm) {
         max-width: 49%;
+        margin-bottom: -3px;
+        margin-right: 3px;
       }
       @media screen and (min-width: $lg) {
         max-width: 23%;
+      }
+    }
+    .uneven {
+      max-width: 49%;
+      margin-bottom: -3px;
+      margin-right: 3px;
+
+      @media screen and (min-width: $sm) {
+        max-width: 100%;
+      }
+      @media screen and (min-width: $lg) {
+        max-width: 28%;
       }
     }
   }
@@ -51,31 +64,47 @@
   .gallery-container-without-text {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     max-width: 85%;
-    margin-top: 50px;
-    gap: 5px;
+    margin: 0 auto;
 
     @media screen and (min-width: $sm) {
       align-items: stretch;
       justify-content: center;
     }
 
-    // @media screen and (min-width: $lg) {
-    //   align-items: stretch;
-    //   justify-content: center;
-    // }
+    @media screen and (min-width: $lg) {
+      margin-top: 50px;
+    }
 
     .even {
       object-fit: cover;
       cursor: pointer;
+      max-width: calc(50% - 3px);
 
       @media screen and (min-width: $lg) {
         max-width: 23%;
         justify-content: center;
+        margin-right: 3px;
+        margin-bottom: 3px;
+      }
+    }
+
+    .uneven {
+      max-width: 25%;
+      object-fit: cover;
+      cursor: pointer;
+      margin-bottom: 3px;
+      margin-right: 3px;
+
+      @media screen and (min-width: $sm) {
+        max-width: 100%;
+      }
+      @media screen and (min-width: $lg) {
+        max-width: 28%;
       }
     }
   }
+
   .text-container {
     max-width: 50%;
     @media screen and (min-width: $sm) {
@@ -87,18 +116,5 @@
       margin-top: 80px;
       max-width: 100%;
     }
-  }
-}
-
-.uneven {
-  max-width: 25%;
-  object-fit: cover;
-  cursor: pointer;
-
-  @media screen and (min-width: $sm) {
-    max-width: 100%;
-  }
-  @media screen and (min-width: $lg) {
-    max-width: 28%;
   }
 }
