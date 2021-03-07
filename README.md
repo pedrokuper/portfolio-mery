@@ -1,6 +1,6 @@
 Portfolio para la fotógrafa [Maria Pirsch](https://www.linkedin.com/in/mar%C3%ADa-pirsch-8a575173/)
 
-El mismo consistía en crear un clon (a nivel estético) de **Netflix** que debía ser responsive y utilizar React para desarrollar una aplicación construida a base de componentes.
+El proyecto consistió en el desarrollo (UX/UI) de la web y el desarrollo
 
 ### Tecnologías utilizadas
 
@@ -12,11 +12,10 @@ El mismo consistía en crear un clon (a nivel estético) de **Netflix** que deb�
 ### Libererías utilizadas
 
 - [react-router-dom](https://reactrouter.com/)
-- [react-slick](https://react-slick.neostack.com/)
 - [react-icons](https://react-icons.github.io/react-icons/)
 - [react-burger-menu](https://github.com/negomi/react-burger-menu)
 
 
 
-## El deploy del proyecto acá: 
-[Courflix](https://react-courflix-pk.vercel.app/)
+## Se puede visitar el portfolio y conocer el trabajo en el siguiente link  
+[María Pirsch](https://mariapirsch.vercel.app/)
