@@ -1,15 +1,11 @@
 @import "../../styles/variables";
 .contact-wrapper {
   display: flex;
-  height: 100vh;
+  height: 85vh;
   margin: 0 auto;
 
-  @media screen and (min-width: $sm) {
-    height: 100vh;
-  }
-
-  @media screen and (min-width: $sm-m) {
-    height: 100vh;
+  @media screen and (min-width: $lg) {
+    height: 90vh;
   }
 
   .contact-text {
@@ -20,8 +16,8 @@
     box-shadow: 1px 1px 2px rgb(226, 226, 226);
 
     @media screen and (min-width: $sm) {
-      font-size: 1rem;
-      padding: 20px;
+      font-size: 1.5rem;
+      padding: 25px;
     }
     @media screen and (min-width: $sm-m) {
       font-size: 2rem;
