@@ -1,6 +1,6 @@
 Portfolio para la fotógrafa [Maria Pirsch](https://www.linkedin.com/in/mar%C3%ADa-pirsch-8a575173/)
 
-El proyecto consistió en el desarrollo (UX/UI) de la web y el desarrollo
+El proyecto consistió en el desarrollo UX/UI de la web y su implementación
 
 ### Tecnologías utilizadas
 
